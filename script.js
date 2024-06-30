@@ -54,3 +54,30 @@ function createGrid(gridSize) {
     box.dataset.shadeLevel = 0;
     container.appendChild(box);
   }
+
+const gridBoxes = document.querySelectorAll(".grid-item");
+
+  gridBoxes.forEach((gridbox) => {
+    gridbox.addEventListener("mouseover", () => {
+      if (rgb) {
+        gridbox.dataset.shadeLevel = 0;
+        color = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(
+          Math.random() * 256
+        )}, ${Math.floor(Math.random() * 256)})`;
+      } else if (shade) {
+        let shadeLevel = parseInt(gridbox.dataset.shadeLevel);
+        shadeLevel = Math.min(shadeLevel + 1, 10); // Increment shade level, max is 10
+        gridbox.dataset.shadeLevel = shadeLevel;
+
+        const shadeValue = 255 - shadeLevel * 25; // Calculate the new shade value
+        color = `rgb(${shadeValue}, ${shadeValue}, ${shadeValue})`;
+
+        gridbox.style.backgroundColor = color;
+        return;
+      } else {
+        color = "black";
+      }
+      gridbox.style.backgroundColor = color;
+    });
+  });
+}

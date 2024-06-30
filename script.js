@@ -43,3 +43,14 @@ rgbColor.addEventListener("click", () => {
   rgb = true;
   shade = false;
 });
+
+function createGrid(gridSize) {
+  const numGrids = gridSize * gridSize;
+  for (let i = 0; i < numGrids; i++) {
+    const box = document.createElement("div");
+    box.className = "grid-item";
+    box.style.width = `calc(100% / ${gridSize})`; // will divide the width from 100% into gridSize parts
+    box.style.height = `calc(100% / ${gridSize})`; // will divide the heigth from 100% into gridSize parts
+    box.dataset.shadeLevel = 0;
+    container.appendChild(box);
+  }

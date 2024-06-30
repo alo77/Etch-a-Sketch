@@ -1,3 +1,7 @@
+body {
+  background-color: hsla(228, 9%, 10%, 1);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,16 +31,19 @@
 
 .grid-item {
   line-height: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(44, 36, 36);
 }
 
 .title {
   margin-top: 10px;
   text-align: center;
+  color: hsla(271, 100%, 92%, 1);
 }
 
-.button {
-  display: flex;
+button {
+  height: 20px;
+  width: 100%;
+  text-align: center;
   flex-direction: column;
   gap: 2px;
   margin: 10px auto;
@@ -58,8 +65,8 @@
   gap: 2px;
 }
 
-.button:focus {
+button:focus {
   outline-color: transparent;
-  outline-style:solid;
+  outline-style: solid;
   box-shadow: hsla(271, 100% , 74%, 1);
 }

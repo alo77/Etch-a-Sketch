@@ -59,5 +59,15 @@
 
 button {
   height: 40px;
-  background-color: transparent;
+  background-color: hsla(271, 100%, 92%, 1);
+  scale: 1.1;
+}
+
+.button:hover {
+  background-color: hsla(271, 100% , 74%, 1);
+}
+
+.rounded-box > *:hover:not(div) {
+  background-color: hsl(0, 0%, 50%);
+  scale: 1.1;
 }

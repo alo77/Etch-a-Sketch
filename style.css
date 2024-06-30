@@ -35,21 +35,28 @@ body {
 }
 
 .title {
-  margin-top: 10px;
+  margin-top: 35px;
+  margin-bottom: 30px;
   text-align: center;
   color: hsla(271, 100%, 92%, 1);
 }
 
 button {
-  height: 20px;
+  height: 30px;
   width: 100%;
-  text-align: center;
+  text-align: justify;
   flex-direction: column;
-  gap: 2px;
-  margin: 10px auto;
-  padding: 0;
-  border-radius: 16px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border-color: hsla(271, 100%, 92%, 1);
+  border-width: 5px;
   background-color: hsla(271, 100%, 92%, 1);
+}
+
+button:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: hsla(271, 100% , 74%, 1);
 }
 
 .menus,
@@ -65,8 +72,3 @@ button {
   gap: 2px;
 }
 
-button:focus {
-  outline-color: transparent;
-  outline-style: solid;
-  box-shadow: hsla(271, 100% , 74%, 1);
-}

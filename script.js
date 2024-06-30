@@ -9,3 +9,17 @@ let gridSize = 16;
 let color = "black";
 let shade = false;
 let rgb = false;
+
+changeSize.addEventListener("click", () => {
+  // will prompt again whenver not giving a number 1-100.
+  do {
+    gridSize = Number(prompt("Enter a number of size (1-100)", 16));
+  } while (
+    isNaN(gridSize) ||
+    !Number.isInteger(gridSize) ||
+    gridSize < 1 ||
+    gridSize > 100
+  );
+  container.textContent = "";
+  createGrid(gridSize);
+});

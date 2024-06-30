@@ -81,3 +81,5 @@ const gridBoxes = document.querySelectorAll(".grid-item");
     });
   });
 }
+
+createGrid(gridSize);

@@ -23,3 +23,9 @@ changeSize.addEventListener("click", () => {
   container.textContent = "";
   createGrid(gridSize);
 });
+
+clearSketch.addEventListener("click", () => {
+  container.textContent = "";
+  createGrid(gridSize);
+});
+

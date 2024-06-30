@@ -29,3 +29,17 @@ clearSketch.addEventListener("click", () => {
   createGrid(gridSize);
 });
 
+blackColor.addEventListener("click", () => {
+  shade = false;
+  rgb = false;
+});
+
+shadeColor.addEventListener("click", () => {
+  shade = true;
+  rgb = false;
+});
+
+rgbColor.addEventListener("click", () => {
+  rgb = true;
+  shade = false;
+});

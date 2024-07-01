@@ -69,11 +69,9 @@ Etch-a-Sketch project developed for the Foundations Certification through the Od
 ## Project Setup
 
 1\. Clone the repository from GitHub.
-
    ![image info](./img/gitclone.png)
 
 2\. Navigate to the project directory.
-
    ![image info](./img/cdfile.png)
 
 3\. Open `index.html` in a web browser to start the game.

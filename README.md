@@ -20,11 +20,11 @@ Etch-a-Sketch project developed for the Foundations Certification through the Od
 
 - Players can choose between three color options for their drawings:
 
-  - **Black**: Standard black color for consistent strokes.
+    * **Black**: Standard black color for consistent strokes.
 
-  - **RGB**: Random colors for each stroke, providing a vibrant and dynamic drawing experience.
+    * **RGB**: Random colors for each stroke, providing a vibrant and dynamic drawing experience.
 
-  - **Shade**: Progressive shading effect, darkening with each pass over the same area.
+    * **Shade**: Progressive shading effect, darkening with each pass over the same area.
 
 ## Technologies Used
 

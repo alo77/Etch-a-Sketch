@@ -1,5 +1,7 @@
 # Etch-a-Sketch Project Documentation
 
+![image info](./img/etchasketch_screenshot.png)
+
 ## Overview
 
 Etch-a-Sketch project developed for the Foundations Certification through the Odin Project. This project utilizes JavaScript to power the game's functions, allowing players to create digital drawings with adjustable settings.
@@ -68,19 +70,11 @@ Etch-a-Sketch project developed for the Foundations Certification through the Od
 
 1\. Clone the repository from GitHub.
 
-   ```bash
-
-   git clone <repository-url>
-
-   ```
+   ![image info](./img/gitclone.png)
 
 2\. Navigate to the project directory.
 
-   ```bash
-
-   cd etch-a-sketch
-
-   ```
+   ![image info](./img/cdfile.png)
 
 3\. Open `index.html` in a web browser to start the game.
 

@@ -86,4 +86,4 @@ Etch-a-Sketch project developed for the Foundations Certification through the Od
 
 ## Contact Information
 
-For questions or feedback, please contact the project maintainer at [email@example.com].
+For questions or feedback, please contact the project maintainer at [[github.com/alo77](https://github.com/alo77)].
